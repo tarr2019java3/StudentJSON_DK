@@ -25,10 +25,10 @@ public class Student {
     }
 
     public String getLastname(){
-        return name;
+        return lastname;
     }
 
-    public void setLastname(String name){
+    public void setLastname(String lastname){
         this.lastname = lastname;
     }
 

@@ -61,6 +61,15 @@ public class Main {
             e.printStackTrace();
         }
 
+
+        JSONUtils jsonUtils = new JSONUtils();
+
+        jsonUtils.writeList("lista.json", studentLista);
+
+        jsonUtils.readList("lista.json");
+
+
+
     }
 
 }
